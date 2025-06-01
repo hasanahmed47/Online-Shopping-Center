@@ -1,0 +1,139 @@
+ *{
+           margin: 0;
+    
+        }
+        h1{
+            text-align: center;
+            background-color: rgba(13, 90, 161, 0.37);
+            color: rgb(26, 25, 25);
+            padding: 35px;            
+        }
+
+        nav ul{
+            list-style: none;
+            display: flex;
+            padding: 15px;
+           background-color: rgb(97, 73, 161);
+           font-size: x-large;
+        }
+
+        nav ul li a{
+            color: white;
+            text-align: center;
+            justify-content: center;
+            margin: 100px;
+            navigation: none;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav ul li:hover{
+            background-color: lightblue;
+        }
+
+        .heading{
+            text-align: center;
+            margin: 30px 0;
+            width: 100%;
+        }
+        .heading h1{
+            background-color: darkblue;
+            color: white;
+        }
+
+
+        .container{
+          margin: 30px auto;
+          text-align: center;
+         
+        }
+        .container table{
+            width: 100%;
+            margin: 2px 0;
+            
+        }
+        .container td{
+            border: 2px solid black;
+            width: 150px;
+            padding: 20px;
+            background-color: rgb(97, 73, 161);
+            font-size: xx-large;
+        }
+        .container td a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .container td:hover{
+            background-color: lightblue;
+            
+        }
+
+        .list li{
+            padding: 20px;
+            font-size: large;
+        }
+        
+
+
+        .box{
+        border: 1px solid black;
+        display: inline-block;
+        width: 200px;
+        height: 430px;
+        padding: 50px;
+        margin: 4%;
+
+     }
+
+     #box1{
+         border: 1px solid black;
+        display: inline-block;
+        width: 200px;
+        height: 430px;
+        padding: 50px;
+        margin: 4%;
+        background-color: palevioletred;
+        background: radial-gradient(circle at 10% 107%, #fd5949 45%,#d6249f 60%,#285AEB 90%);   
+     }
+
+     #box1 > p{
+        color: white;
+     }
+     #box1 > h1{
+        color: white;
+     }
+
+     #box1 > button{
+  border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+        width: 200px;
+        background-color: white;
+        color: #d6249f;
+     }
+
+
+     
+     .logo{
+        display: flex;
+        justify-content: center;
+      
+       
+       
+          
+     }
+    .box > h1{
+       text-align: center;
+    }
+
+
+     .box > button{
+        border: 1px solid black;
+        border-radius: 30px;
+        padding: 10px;
+        width: 200px;
+        background-color: black;
+        color: white;
+     }
+       
